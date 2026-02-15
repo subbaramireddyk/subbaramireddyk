@@ -1,3 +1,5 @@
-### About Me
-I am passionate about DevOps, Automation, and Continuous Integration & Delivery. Currently, I am learning Harness and improving my skills in DevSecOps. I am always enthusiastic about collaborating on open-source projects and building innovative solutions to complex challenges.
+# About Me
+This is my new About Me section with some additional details.
 
+## Previous Content Placeholder
+[The content from a previous version will go here.]
