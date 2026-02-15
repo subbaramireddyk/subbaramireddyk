@@ -1,4 +1,3 @@
----
 # 👋 Hi there, I'm Subbarami Reddy K
 
 ## 🚀 About Me
@@ -22,5 +21,3 @@
 - **GitHub**: [subbaramireddyk](https://github.com/subbaramireddyk)
 - **LinkedIn**: _Provide a LinkedIn URL_
 - **Twitter**: _Provide a Twitter URL_
-
----
