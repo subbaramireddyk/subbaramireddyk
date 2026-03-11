@@ -2,12 +2,13 @@
 
 <!-- Header Section -->
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=DevOps+%26+Cloud+Engineer;AWS+%7C+Azure+%7C+Kubernetes+Expert;Infrastructure+as+Code+Enthusiast;Continuous+Learning+%26+Growing" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=DevOps+%26+Cloud+Engineer;Senior+DevOps+Engineer;AWS+%7C+Azure+%7C+Kubernetes+Expert;CKA+Certified+Professional;Infrastructure+as+Code+Enthusiast;Continuous+Learning+%26+Growing" alt="Typing SVG" />
 </div>
 
 <p align="center">
-  🚀 DevOps & Cloud Engineer passionate about building scalable, resilient infrastructure.<br/>
-  ☁️ Specializing in AWS, Azure, Kubernetes, and modern CI/CD pipelines.<br/>
+  🚀 Senior DevOps & Cloud Engineer with proven expertise in building scalable, resilient infrastructure.<br/>
+  ☁️ Multi-cloud specialist (AWS & Azure) with Kubernetes mastery and official certifications.<br/>
+  🎓 CKA Certified | AWS Certified Developer | Azure Certified Developer<br/>
   🔧 Making infrastructure boring (in a good way) through automation and IaC.
 </p>
 
@@ -90,6 +91,23 @@
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
   <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm" />
+</p>
+
+---
+
+<!-- Certifications Section -->
+## 🎓 Certifications
+
+<p align="center">
+  <img src="https://img.shields.io/badge/CKA-Certified_Kubernetes_Administrator-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="CKA" />
+  <img src="https://img.shields.io/badge/AWS-Certified_Developer-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS Developer" />
+  <img src="https://img.shields.io/badge/Azure-Certified_Developer-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure Developer" />
+</p>
+
+<p align="center">
+  ✅ <strong>Certified Kubernetes Administrator (CKA)</strong> - CNCF<br/>
+  ✅ <strong>AWS Certified Developer - Associate</strong> - Amazon Web Services<br/>
+  ✅ <strong>Microsoft Certified: Azure Developer Associate</strong> - Microsoft
 </p>
 
 ---
