@@ -32,12 +32,16 @@
 ## 📊 GitHub Stats
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=subbaramireddyk&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subbaramireddyk&layout=compact&theme=radical" alt="Top Languages" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=subbaramireddyk&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" alt="GitHub Stats" height="170" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subbaramireddyk&layout=compact&theme=radical&hide_border=true&langs_count=8" alt="Top Languages" height="170" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=subbaramireddyk&theme=radical" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com/?user=subbaramireddyk&theme=radical&hide_border=true" alt="GitHub Streak Stats" />
+</div>
+
+<div align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=subbaramireddyk&theme=radical&hide_border=true" alt="Profile Summary" />
 </div>
 
 ---
@@ -134,7 +138,9 @@
 <!-- Trophies Section -->
 ## 🏆 GitHub Trophies
 
-![Trophies](https://github-profile-trophy.vercel.app/?username=subbaramireddyk&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=subbaramireddyk&theme=radical&no-frame=true&no-bg=true&margin-w=4&column=7" alt="Trophies" />
+</div>
 
 ---
 
