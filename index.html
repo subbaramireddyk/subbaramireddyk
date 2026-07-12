@@ -1,37 +1,607 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GitHub Contributions and Stats</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
-        header { background-color: #24292e; color: white; padding: 20px; text-align: center; }
-        section { margin: 20px; padding: 15px; border: 1px solid #ccc; border-radius: 5px; }
-        h2 { color: #0366d6; }
-        .widget { margin: 20px 0; }
-    </style>
+	<!-- basic page needs
+   ================================================== -->
+	<meta charset="utf-8">
+	<title>Subbaramireddy K | DevSecOps &amp; Multi-Cloud Platform Engineer</title>
+	<meta name="description" content="Subbaramireddy K is a Senior DevSecOps Engineer specializing in multi-cloud (AWS, Azure, GCP), Kubernetes (CKA), Terraform/IaC, GitOps and CI/CD automation.">
+	<meta name="author" content="Subbaramireddy K">
+	<meta name="keywords" content="Subbaramireddy, DevSecOps Engineer, DevOps Engineer, Platform Engineer, AWS, Azure, GCP, Kubernetes, CKA, Terraform, GitOps, ArgoCD, Harness">
+	<meta name="robots" content="index, follow">
+	<meta name="url" content="https://subbaramireddy-k.github.io/Portfolio/">
+	<meta name="identifier-URL" content="https://subbaramireddy-k.github.io/Portfolio/">
+
+	<!-- mobile specific metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- open graph
+   ================================================== -->
+	<meta property="og:title" content="Subbaramireddy K | DevSecOps &amp; Multi-Cloud Platform Engineer">
+	<meta property="og:description" content="Building secure, scalable multi-cloud platforms on AWS, Azure and GCP with Kubernetes, GitOps and CI/CD automation.">
+	<meta property="og:type" content="website">
+	<meta property="og:url" content="https://subbaramireddy-k.github.io/Portfolio/">
+
+	<!-- fonts
+   ================================================== -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+	<!-- icons
+   ================================================== -->
+	<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/devicon@2.15.1/devicon.min.css">
+
+	<!-- CSS
+   ================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- favicons ================================================== -->
+	<link rel="icon" type="image/png" href="favicon.png">
+
 </head>
-<body>
-    <header>
-        <h1>My GitHub Contributions and Stats</h1>
-        <p>Date: 2026-02-15</p>
-    </header>
-    <section id="contributions">
-        <h2>Contributions</h2>
-        <div>Placeholder for contributions data</div>
-    </section>
-    <section id="programming-stats">
-        <h2>Programming Stats</h2>
-        <div>Placeholder for programming language stats</div>
-    </section>
-    <section id="weekly-activity">
-        <h2>Weekly Activity</h2>
-        <div class="widget">Placeholder for dynamic weekly activity widget</div>
-    </section>
-    <section id="starred-repos">
-        <h2>Starred Repositories</h2>
-        <div>Placeholder for starred repos links</div>
-    </section>
+
+<body id="top">
+
+	<!-- preloader -->
+	<div id="preloader">
+		<div id="loader"></div>
+	</div>
+
+	<!-- navbar
+   ================================================== -->
+	<nav class="navbar" id="navbar">
+		<div class="nav-container">
+			<a href="#top" class="logo">&lt;Subbu<span class="accent">.</span>dev/&gt;</a>
+
+			<ul class="nav-links" id="navLinks">
+				<li><a href="#top" class="nav-link active">Home</a></li>
+				<li><a href="#about" class="nav-link">About</a></li>
+				<li><a href="#skills" class="nav-link">Skills</a></li>
+				<li><a href="#experience" class="nav-link">Experience</a></li>
+				<li><a href="#projects" class="nav-link">Projects</a></li>
+				<li><a href="#contact" class="nav-link">Contact</a></li>
+			</ul>
+
+			<a href="Subbu_Resume.pdf" class="btn btn-outline btn-sm nav-resume" download>Resume</a>
+
+			<button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+				<span></span><span></span><span></span>
+			</button>
+		</div>
+	</nav>
+
+	<!-- hero
+   ================================================== -->
+	<section id="top" class="hero">
+
+		<div class="hero-bg">
+			<span class="blob blob-1"></span>
+			<span class="blob blob-2"></span>
+			<span class="blob blob-3"></span>
+			<div class="grid-overlay"></div>
+		</div>
+
+		<div class="hero-container">
+
+			<div class="hero-content">
+				<p class="hero-greeting reveal">$ whoami</p>
+				<h1 class="hero-name reveal">Subbaramireddy K<span class="dot">.</span></h1>
+				<h2 class="hero-role reveal"><span id="typewriter"></span><span class="cursor">|</span></h2>
+
+				<p class="hero-desc reveal">
+					I build secure, scalable multi-cloud platforms across AWS, Azure and GCP — driving zero-downtime
+					Kubernetes upgrades, GitOps automation and self-service developer platforms that cut manual effort
+					and cloud costs alike.
+				</p>
+
+				<div class="hero-actions reveal">
+					<a href="#projects" class="btn btn-primary">View My Work</a>
+					<a href="Subbu_Resume.pdf" class="btn btn-outline" download>Download Resume</a>
+				</div>
+
+				<div class="hero-socials reveal">
+					<a href="https://www.linkedin.com/in/subbaramireddy/" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a>
+					<a href="https://github.com/SUBBARAMIREDDY-K" aria-label="GitHub"><i class="fa fa-github"></i></a>
+					<a href="https://devops-voyager.hashnode.dev/" target="_blank" rel="noopener" aria-label="Blog"><i class="fa fa-rss"></i></a>
+					<a href="https://www.instagram.com/subbaramireddy__k/" aria-label="Instagram"><i class="fa fa-instagram"></i></a>
+					<a href="https://www.hackerrank.com/cse_5f0" aria-label="HackerRank"><i class="fa fa-code"></i></a>
+				</div>
+			</div>
+
+			<div class="hero-visual reveal">
+				<div class="terminal-window">
+					<div class="terminal-header">
+						<span class="dot red"></span>
+						<span class="dot yellow"></span>
+						<span class="dot green"></span>
+						<span class="terminal-title">subbu@platform-eng: ~</span>
+					</div>
+					<div class="terminal-body" id="terminalBody"></div>
+				</div>
+			</div>
+
+		</div>
+
+		<a href="#about" class="scroll-indicator"><span></span>Scroll</a>
+
+	</section> <!-- /hero -->
+
+
+	<!-- about
+   ================================================== -->
+	<section id="about" class="section">
+		<div class="container">
+
+			<div class="section-header reveal">
+				<span class="section-tag">01. About Me</span>
+				<h2>Turning Infrastructure Into <span class="text-gradient">Reliable Systems</span></h2>
+			</div>
+
+			<div class="about-grid">
+
+				<div class="about-image reveal">
+					<div class="image-frame">
+						<img src="images/subbu-new-pic.png" alt="Subbaramireddy K">
+					</div>
+					<div class="badge-card">🚀 4+ yrs in Production</div>
+				</div>
+
+				<div class="about-content reveal">
+					<p>
+						Hey, I'm Subbaramireddy — a Senior DevOps Engineer currently building secure, scalable
+						platforms at <strong>ADNOC Group</strong> in Abu Dhabi. My work centers on Kubernetes
+						(EKS), Infrastructure as Code, CI/CD automation, and improving developer productivity
+						across multi-cloud environments spanning AWS, Azure and GCP.
+					</p>
+					<p>
+						Recent highlights include performing zero-downtime EKS upgrades across 40+ Harness
+						delegates, rolling out ArgoCD GitOps in a hub-spoke model for multi-cluster deployments,
+						and building monorepo Terraform modules that cut cloud infrastructure costs by 40–50%.
+						I also built self-service developer workflows on Backstage (IDP), achieving a
+						"zero-ticket" access model for GitHub, AWS, Azure and more.
+					</p>
+					<p>
+						Lately I've been expanding into AI-assisted platform engineering — using automation and
+						intelligent workflows to improve observability, reduce MTTR, and cut manual operational
+						effort by around 80%.
+					</p>
+
+					<ul class="info-grid">
+						<li><span>Name</span><strong>Subbaramireddy K</strong></li>
+						<li><span>Role</span><strong>Senior DevOps / DevSecOps Engineer</strong></li>
+						<li><span>Location</span><strong>Abu Dhabi, UAE</strong></li>
+						<li><span>Email</span><strong>ksramireddy11@gmail.com</strong></li>
+					</ul>
+
+					<a href="#contact" class="btn btn-primary">Let's Work Together</a>
+				</div>
+
+
+			</div>
+
+		</div>
+	</section> <!-- /about -->
+
+	<!-- skills
+   ================================================== -->
+	<section id="skills" class="section grey">
+		<div class="container">
+
+			<div class="section-header reveal">
+				<span class="section-tag">02. Tech Stack</span>
+				<h2>Tools I Use To <span class="text-gradient">Ship &amp; Scale</span></h2>
+				<p>A toolkit built around cloud infrastructure, automation and reliable delivery.</p>
+			</div>
+
+			<div class="skills-grid">
+
+				<div class="skill-card reveal">
+					<div class="skill-icon"><i class="fa fa-cloud"></i></div>
+					<h3>Multi-Cloud &amp; IaC</h3>
+					<p>Provisioning and standardizing infrastructure across cloud providers.</p>
+					<div class="chip-row">
+						<span class="chip"><i class="devicon-amazonwebservices-plain-wordmark colored"></i> AWS</span>
+						<span class="chip"><i class="devicon-azure-plain colored"></i> Azure</span>
+						<span class="chip"><i class="devicon-googlecloud-plain colored"></i> GCP</span>
+						<span class="chip"><i class="devicon-terraform-plain colored"></i> Terraform</span>
+						<span class="chip"><i class="fa fa-cubes"></i> CloudFormation</span>
+						<span class="chip"><i class="fa fa-cube"></i> AWS CDK</span>
+					</div>
+				</div>
+
+				<div class="skill-card reveal">
+					<div class="skill-icon"><i class="fa fa-server"></i></div>
+					<h3>Containers &amp; Orchestration</h3>
+					<p>Kubernetes at scale — CKA certified.</p>
+					<div class="chip-row">
+						<span class="chip"><i class="devicon-docker-plain colored"></i> Docker</span>
+						<span class="chip"><i class="devicon-kubernetes-plain colored"></i> Kubernetes (CKA)</span>
+						<span class="chip"><i class="fa fa-cloud"></i> Amazon EKS</span>
+						<span class="chip"><i class="fa fa-cubes"></i> ECS / ECR</span>
+						<span class="chip"><i class="devicon-redhat-plain colored"></i> RHEL</span>
+					</div>
+				</div>
+
+				<div class="skill-card reveal">
+					<div class="skill-icon"><i class="fa fa-refresh"></i></div>
+					<h3>CI/CD &amp; GitOps</h3>
+					<p>Pipelines and GitOps workflows that make deployments boring.</p>
+					<div class="chip-row">
+						<span class="chip"><i class="fa fa-rocket"></i> Harness</span>
+						<span class="chip"><i class="fa fa-refresh"></i> ArgoCD</span>
+						<span class="chip"><i class="devicon-jenkins-line colored"></i> Jenkins</span>
+						<span class="chip"><i class="fa fa-github"></i> GitHub Actions</span>
+						<span class="chip"><i class="devicon-git-plain colored"></i> Git</span>
+					</div>
+				</div>
+
+				<div class="skill-card reveal">
+					<div class="skill-icon"><i class="fa fa-eye"></i></div>
+					<h3>Observability &amp; Security</h3>
+					<p>Monitoring, alerting and shift-left DevSecOps practices.</p>
+					<div class="chip-row">
+						<span class="chip"><i class="fa fa-line-chart"></i> Prometheus</span>
+						<span class="chip"><i class="fa fa-area-chart"></i> Grafana</span>
+						<span class="chip"><i class="fa fa-cloud"></i> CloudWatch</span>
+						<span class="chip"><i class="fa fa-shield"></i> Qualys</span>
+						<span class="chip"><i class="fa fa-lock"></i> Microsoft Defender</span>
+					</div>
+				</div>
+
+				<div class="skill-card reveal">
+					<div class="skill-icon"><i class="fa fa-sitemap"></i></div>
+					<h3>Platform Engineering</h3>
+					<p>Self-service developer platforms and disaster recovery.</p>
+					<div class="chip-row">
+						<span class="chip"><i class="fa fa-th-large"></i> Backstage (IDP)</span>
+						<span class="chip"><i class="fa fa-life-ring"></i> Velero (DR)</span>
+						<span class="chip"><i class="devicon-terraform-plain colored"></i> Terraform Modules</span>
+					</div>
+				</div>
+
+				<div class="skill-card reveal">
+					<div class="skill-icon"><i class="fa fa-code"></i></div>
+					<h3>Languages &amp; Frameworks</h3>
+					<p>Full-stack development skills that support the platforms I build.</p>
+					<div class="chip-row">
+						<span class="chip"><i class="devicon-java-plain colored"></i> Java EE</span>
+						<span class="chip"><i class="devicon-python-plain colored"></i> Python</span>
+						<span class="chip"><i class="devicon-javascript-plain colored"></i> JavaScript</span>
+						<span class="chip"><i class="devicon-react-original colored"></i> React.js</span>
+						<span class="chip"><i class="devicon-nodejs-plain colored"></i> Node.js</span>
+						<span class="chip"><i class="devicon-mongodb-plain colored"></i> MongoDB</span>
+						<span class="chip"><i class="devicon-mysql-plain colored"></i> MySQL</span>
+					</div>
+				</div>
+
+			</div>
+
+
+		</div>
+	</section> <!-- /skills -->
+
+	<!-- experience / education
+   ================================================== -->
+	<section id="experience" class="section">
+		<div class="container">
+
+			<div class="section-header reveal">
+				<span class="section-tag">03. Journey</span>
+				<h2>Experience &amp; <span class="text-gradient">Education</span></h2>
+			</div>
+
+			<div class="tabs reveal">
+				<button class="tab-btn active" data-tab="experience-panel">Experience</button>
+				<button class="tab-btn" data-tab="education-panel">Education</button>
+				<button class="tab-btn" data-tab="certifications-panel">Certifications</button>
+			</div>
+
+			<div class="tab-panel active" id="experience-panel">
+				<div class="timeline">
+
+					<div class="timeline-item reveal">
+						<p class="period">June 2026 — Present</p>
+						<h3>Senior DevOps Engineer</h3>
+						<h4>ADNOC Group — Abu Dhabi</h4>
+						<p>Leading DevSecOps and platform engineering for multi-cloud (AWS, Azure, GCP)
+						infrastructure, driving Kubernetes, GitOps and CI/CD automation initiatives.</p>
+					</div>
+
+					<div class="timeline-item reveal">
+						<p class="period">February 2026 — June 2026</p>
+						<h3>Senior DevOps Engineer</h3>
+						<h4>OneAdvanced — Bengaluru</h4>
+						<p>Led cloud-native DevOps platforms on AWS/EKS, drove zero-downtime upgrades and
+						infrastructure cost optimization, and strengthened CI/CD reliability with Harness,
+						Jenkins and GitHub Actions.</p>
+					</div>
+
+					<div class="timeline-item reveal">
+						<p class="period">April 2024 — February 2026</p>
+						<h3>DevOps Engineer</h3>
+						<h4>OneAdvanced — Bengaluru</h4>
+						<p>Delivered secure, automated multi-cloud infrastructure: DR design with Velero,
+						EKS upgrades, reusable Terraform/Harness modules, an Internal Developer Platform for
+						access automation, and security rollouts across 300+ EC2 instances.</p>
+					</div>
+
+					<div class="timeline-item reveal">
+						<p class="period">May 2023 — April 2024</p>
+						<h3>Associate DevOps Engineer</h3>
+						<h4>OneAdvanced — Bengaluru</h4>
+						<p>Built CI/CD pipelines with GitHub Actions and Harness, developed an internal
+						logging/monitoring web app, and managed AWS infrastructure via CloudFormation and CDK.</p>
+					</div>
+
+					<div class="timeline-item reveal">
+						<p class="period">February 2023 — May 2023</p>
+						<h3>Trainee Engineer</h3>
+						<h4>OneAdvanced — Bengaluru</h4>
+						<p>Gained hands-on DevOps foundations deploying full-stack apps on EC2/RDS/Elastic
+						Beanstalk and containerizing workloads with Docker, ECS, ECR, EKS and Minikube.</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tab-panel" id="education-panel">
+				<div class="timeline">
+
+					<div class="timeline-item reveal">
+						<p class="period">August 2019 — May 2023</p>
+						<h3>Bachelor of Technology, Computer Science &amp; Engineering</h3>
+						<h4><a href="https://www.rgmcet.edu.in/">RGM College Of Engineering &amp; Technology</a></h4>
+						<p>Completed B.Tech. in Computer Science (CSE) at Rajeev Gandhi Memorial College of
+						Engineering and Technology — Nandyal, Andhra Pradesh.</p>
+					</div>
+
+					<div class="timeline-item reveal">
+						<p class="period">July 2017 — May 2019</p>
+						<h3>Intermediate / 12th, MPC</h3>
+						<h4>Sri Chaitanya College of Education</h4>
+						<p>Completed intermediate education (Maths, Physics, Chemistry) through the Andhra
+						Pradesh Board.</p>
+					</div>
+
+					<div class="timeline-item reveal">
+						<p class="period">April 2003 — April 2017</p>
+						<h3>SSC / Schooling</h3>
+						<h4>Sai Baba High School</h4>
+						<p>Completed schooling through the Andhra Pradesh Board at Sai Baba High School.</p>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="tab-panel" id="certifications-panel">
+				<div class="skills-grid">
+
+					<div class="skill-card reveal">
+						<div class="skill-icon"><i class="fa fa-certificate"></i></div>
+						<h3>CKA</h3>
+						<p>Certified Kubernetes Administrator — The Linux Foundation / CNCF.</p>
+					</div>
+
+					<div class="skill-card reveal">
+						<div class="skill-icon"><i class="fa fa-certificate"></i></div>
+						<h3>Harness Certified CD &amp; GitOps Developer</h3>
+						<p>Continuous Delivery &amp; GitOps Developer — Harness.</p>
+					</div>
+
+					<div class="skill-card reveal">
+						<div class="skill-icon"><i class="fa fa-certificate"></i></div>
+						<h3>Nasscom Java Excellence Certificate</h3>
+						<p>Recognized for excellence in Java programming — Nasscom.</p>
+					</div>
+
+					<div class="skill-card reveal">
+						<div class="skill-icon"><i class="fa fa-certificate"></i></div>
+						<h3>Python Essentials 1</h3>
+						<p>Foundational Python programming certification.</p>
+					</div>
+
+					<div class="skill-card reveal">
+						<div class="skill-icon"><i class="fa fa-certificate"></i></div>
+						<h3>Java EE (Talent Next)</h3>
+						<p>Application development with Java EE — AICTE Talent Next.</p>
+					</div>
+
+				</div>
+			</div>
+
+		</div>
+	</section> <!-- /experience -->
+
+
+	<!-- portfolio / projects
+   ================================================== -->
+	<section id="projects" class="section grey">
+		<div class="container">
+
+			<div class="section-header reveal">
+				<span class="section-tag">04. Portfolio</span>
+				<h2>Check Out Some Of My <span class="text-gradient">Projects</span></h2>
+				<p>These projects have helped me develop my skills and understand the industry better.</p>
+			</div>
+
+			<div class="projects-grid">
+
+				<div class="project-card reveal">
+					<div class="project-image">
+						<img src="images/TTMS.png" alt="Timetable Management System">
+						<div class="project-overlay">
+							<p>Timetable management app made using React and Node.js.</p>
+							<div class="project-links">
+								<a href="https://github.com/SUBBARAMIREDDY-K/TTMS/tree/master" target="_blank" rel="noopener"><i class="fa fa-github"></i> View Code</a>
+							</div>
+						</div>
+					</div>
+					<div class="project-body">
+						<span class="project-tag">Web App Development</span>
+						<h3>Timetable Management System</h3>
+					</div>
+				</div>
+
+				<div class="project-card reveal">
+					<div class="project-image">
+						<img src="images/FMS.png" alt="Smart Farm Management System">
+						<div class="project-overlay">
+							<p>Smart Farm Management App made using PHP and MySQL.</p>
+							<div class="project-links">
+								<a href="https://github.com/SUBBARAMIREDDY-K" target="_blank" rel="noopener"><i class="fa fa-github"></i> View Code</a>
+							</div>
+						</div>
+					</div>
+					<div class="project-body">
+						<span class="project-tag">Web App Development</span>
+						<h3>Smart Farm Management System</h3>
+					</div>
+				</div>
+
+			</div>
+
+		</div>
+	</section> <!-- /projects -->
+
+	<!-- stats
+   ================================================== -->
+	<section id="stats" class="section">
+		<div class="container">
+			<div class="stats-grid">
+
+				<div class="stat-card reveal">
+					<div class="icon"><i class="fa fa-briefcase"></i></div>
+					<h3 class="stat-count" data-count="3" data-suffix="+">0</h3>
+					<p class="stat-title">Years in DevOps</p>
+				</div>
+
+				<div class="stat-card reveal">
+					<div class="icon"><i class="fa fa-money"></i></div>
+					<h3 class="stat-count" data-count="45" data-suffix="%">0</h3>
+					<p class="stat-title">Cloud Cost Reduction</p>
+				</div>
+
+				<div class="stat-card reveal">
+					<div class="icon"><i class="fa fa-bolt"></i></div>
+					<h3 class="stat-count" data-count="80" data-suffix="%">0</h3>
+					<p class="stat-title">Manual Effort Reduced</p>
+				</div>
+
+				<div class="stat-card reveal">
+					<div class="icon"><i class="fa fa-server"></i></div>
+					<h3 class="stat-count" data-count="40" data-suffix="+">0</h3>
+					<p class="stat-title">Harness Delegates Managed</p>
+				</div>
+
+			</div>
+		</div>
+	</section> <!-- /stats -->
+
+	<!-- contact
+   ================================================== -->
+	<section id="contact" class="section grey">
+		<div class="container">
+
+			<div class="section-header reveal">
+				<span class="section-tag">05. Contact</span>
+				<h2>I'd Love To Hear <span class="text-gradient">From You</span></h2>
+				<p>Feel free to reach out — for collaborations, opportunities, or just to talk shop.</p>
+			</div>
+
+			<div class="contact-grid">
+
+				<div class="reveal">
+					<form name="form" id="contactForm" class="contact-form" method="POST" action="https://formspree.io/f/mpzepopd">
+						<div class="form-row">
+							<div class="form-field">
+								<input name="name" type="text" id="contactName" placeholder="Name" minlength="2" required>
+							</div>
+							<div class="form-field">
+								<input name="_replyto" type="email" id="contactEmail" placeholder="Email" required>
+							</div>
+						</div>
+						<div class="form-field">
+							<input name="_subject" type="text" id="contactSubject" placeholder="Subject">
+						</div>
+						<div class="form-field">
+							<textarea name="message" id="contactMessage" placeholder="Message" rows="6" required></textarea>
+						</div>
+						<button type="submit" class="btn btn-primary submitform">Send Message</button>
+						<div id="formStatus"></div>
+					</form>
+				</div>
+
+				<div class="contact-info-list reveal">
+
+					<div class="contact-info-card">
+						<div class="icon"><i class="fa fa-map-marker"></i></div>
+						<div>
+							<h5>Where to find me</h5>
+							<p>Abu Dhabi<br>United Arab Emirates</p>
+						</div>
+					</div>
+
+					<div class="contact-info-card">
+						<div class="icon"><i class="fa fa-envelope"></i></div>
+						<div>
+							<h5>Email me at</h5>
+							<p><a href="mailto:ksramireddy11@gmail.com">ksramireddy11@gmail.com</a><br>
+							<a href="mailto:karapureddysubbaramireddy@gmail.com">karapureddysubbaramireddy@gmail.com</a></p>
+						</div>
+					</div>
+
+					<div class="contact-info-card">
+						<div class="icon"><i class="fa fa-paper-plane"></i></div>
+						<div>
+							<h5>Message me on</h5>
+							<p><a href="https://t.me/SUBBARAMI" target="_blank" rel="noopener">Telegram — @Subbaram</a></p>
+						</div>
+					</div>
+
+					<div class="contact-info-card">
+						<div class="icon"><i class="fa fa-rss"></i></div>
+						<div>
+							<h5>Read my blog</h5>
+							<p><a href="https://devops-voyager.hashnode.dev/" target="_blank" rel="noopener">devops-voyager.hashnode.dev</a></p>
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+
+		</div>
+	</section> <!-- /contact -->
+
+	<!-- footer
+   ================================================== -->
+	<footer>
+		<div class="container">
+			<div class="footer-inner">
+
+				<ul class="footer-social">
+					<li><a href="https://www.linkedin.com/in/subbaramireddy/" aria-label="LinkedIn"><i class="fa fa-linkedin"></i></a></li>
+					<li><a href="https://github.com/SUBBARAMIREDDY-K" aria-label="GitHub"><i class="fa fa-github"></i></a></li>
+					<li><a href="https://devops-voyager.hashnode.dev/" target="_blank" rel="noopener" aria-label="Blog"><i class="fa fa-rss"></i></a></li>
+					<li><a href="https://www.instagram.com/subbaramireddy__k/" aria-label="Instagram"><i class="fa fa-instagram"></i></a></li>
+					<li><a href="https://www.hackerrank.com/cse_5f0" aria-label="HackerRank"><i class="fa fa-code"></i></a></li>
+				</ul>
+
+				<p class="footer-copy">© 2026 Subbaramireddy K. Designed &amp; built with care.</p>
+
+			</div>
+		</div>
+	</footer>
+
+	<a href="#top" id="backToTop" aria-label="Back to top"><i class="fa fa-long-arrow-up"></i></a>
+
+	<!-- Java Script
+   ================================================== -->
+	<script src="js/script.js"></script>
+
 </body>
+
 </html>
