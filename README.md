@@ -1,13 +1,13 @@
 # Hi, I'm Subbu 👋
 
-**Senior Platform Engineer · DevOps · SRE** — I build the internal platforms that engineering teams ship on.
+**Senior Platform Engineer · DevOps · SRE · Technical Writer** — I build the internal platforms that engineering teams ship on, and write about how to build them.
 
 4+ years designing, automating and operating enterprise-scale platforms on **AWS, Azure and GCP**: Kubernetes (EKS/AKS), Infrastructure as Code, CI/CD, GitOps, Internal Developer Platforms and DevSecOps. Currently Senior DevOps / Platform Engineer at **ADNOC**, Abu Dhabi.
 
 <p>
   <a href="https://www.linkedin.com/in/subbaramireddy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <a href="https://medium.com/@subbaramireddyk"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
-  <a href="https://hashnode.com/@subbaramireddy"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=flat&logo=hashnode&logoColor=white" alt="Hashnode" /></a>
+  <a href="https://devops-voyager.hashnode.dev"><img src="https://img.shields.io/badge/Blog-DevOps_Voyager-2962FF?style=flat&logo=hashnode&logoColor=white" alt="DevOps Voyager blog" /></a>
   <a href="mailto:ksramireddy11@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
@@ -34,6 +34,24 @@
 
 **Now (ADNOC)**
 - Onboarding products onto an Internal Developer Platform with **shift-left SDLC**: governed project scaffolding, SAST/SCA quality gates, and multi-stage IaC pipelines to AKS and Azure Container Apps.
+
+---
+
+## 🤖 AI products I've built
+
+AI-powered platforms that target the problems platform and security teams actually have: noisy alerts, slow incident response and security signal overload.
+
+**🩺 K8s Self-Healing Agent**  
+An AI agent that watches Kubernetes clusters, detects anomalies from Prometheus metrics with ML and automatically remediates common failure modes before they become incidents.  
+`Kubernetes` `Prometheus` `Python` `ML`
+
+**🎧 AI-Driven Support Platform**  
+Correlates related alerts into a single incident and recommends the remediation, so on-call engineers deal with one actionable signal instead of a flood of pages.  
+`LLMs` `Observability` `Python`
+
+**🛡️ Threat Intelligence Platform**  
+A serverless platform on AWS Bedrock that ingests and enriches threat feeds with LLMs, publishes **STIX-compliant** intelligence, and alerts users when packages they depend on are hit by a security incident, with remediation steps.  
+`AWS Bedrock` `Serverless` `STIX` `Supply-chain security`
 
 ---
 
@@ -65,4 +83,15 @@ Certified Kubernetes Administrator (CKA) · AWS Certified Developer – Associat
 
 ---
 
-✍️ I write about Kubernetes, platform engineering and IaC on [Medium](https://medium.com/@subbaramireddyk) and [Hashnode](https://hashnode.com/@subbaramireddy).
+## ✍️ Writing: [DevOps Voyager](https://devops-voyager.hashnode.dev)
+
+35+ hands-on articles on Hashnode covering Kubernetes, AWS, CI/CD and DevOps tooling, plus series on AWS, DevOps tools, GitHub Actions and Harness. Selected reads:
+
+- [Kustomize: a complete guide](https://devops-voyager.hashnode.dev/kustomize) (17 min)
+- [Connecting GitHub Actions to AWS with OpenID Connect (OIDC)](https://devops-voyager.hashnode.dev/connecting-github-actions-to-aws-using-openid-connectoidc)
+- [ChatGPT for DevOps with Kubiya](https://devops-voyager.hashnode.dev/chatgpt-for-devops-kubiya) and [Kubiya AI + AWS integration](https://devops-voyager.hashnode.dev/kubiya-ai-and-aws-integration)
+- [AWS Cost Anomaly Detection](https://devops-voyager.hashnode.dev/aws-cost-anomaly-detection) · [AWS Cost Explorer](https://devops-voyager.hashnode.dev/aws-cost-explorer)
+- [Jenkins master–agent setup for CI/CD](https://devops-voyager.hashnode.dev/jenkins-master-agent-setup-for-cicd) · [Kubernetes cluster setup with kubeadm](https://devops-voyager.hashnode.dev/kubernetes-cluster-setup-using-kubeadm)
+- **One app, every platform:** a series deploying the Timetable Management System from [EC2](https://devops-voyager.hashnode.dev/task-1deploy-timetable-management-system-application-on-an-aws-ec2-instance) → [Elastic Beanstalk](https://devops-voyager.hashnode.dev/task-4-deploy-timetable-management-system-application-in-elastic-bean-stalk-eb) → [ECS](https://devops-voyager.hashnode.dev/task-6deploy-the-containerized-application-in-elastic-container-service-ecs-caas) → [Kubernetes](https://devops-voyager.hashnode.dev/deploy-the-timetable-management-system-application-in-the-kubernetes-cluster)
+
+Also on [Medium](https://medium.com/@subbaramireddyk).
