@@ -1,140 +1,68 @@
-# Hi there, I'm Subbaramireddy K 👋
+# Hi, I'm Subbu 👋
 
-<!-- Header Section -->
-<div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2196F3&center=true&vCenter=true&width=435&lines=DevOps+%26+Cloud+Engineer;AWS+%7C+Azure+%7C+Kubernetes+Expert;Infrastructure+as+Code+Enthusiast;Continuous+Learning+%26+Growing" alt="Typing SVG" />
-</div>
+**Senior Platform Engineer · DevOps · SRE** — I build the internal platforms that engineering teams ship on.
 
-<p align="center">
-  🚀 DevOps & Cloud Engineer passionate about building scalable, resilient infrastructure.<br/>
-  ☁️ Specializing in AWS, Azure, Kubernetes, and modern CI/CD pipelines.<br/>
-  🔧 Making infrastructure boring (in a good way) through automation and IaC.
-</p>
+4+ years designing, automating and operating enterprise-scale platforms on **AWS, Azure and GCP**: Kubernetes (EKS/AKS), Infrastructure as Code, CI/CD, GitOps, Internal Developer Platforms and DevSecOps. Currently Senior DevOps / Platform Engineer at **ADNOC**, Abu Dhabi.
 
----
-
-<!-- Badges Section -->
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=subbaramireddyk&color=blue" alt="Profile Views" />
-  <a href="https://github.com/subbaramireddyk?tab=followers">
-    <img src="https://img.shields.io/github/followers/subbaramireddyk?label=Followers&style=social" alt="GitHub Followers" />
-  </a>
-  <a href="https://www.linkedin.com/in/subbaramireddyk">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <img src="https://img.shields.io/badge/Focus-DevOps%20%26%20Cloud-brightgreen" alt="Focus" />
-</p>
-
----
-
-<!-- GitHub Stats Section -->
-## 📊 GitHub Stats
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=subbaramireddyk&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=subbaramireddyk&layout=compact&theme=radical" alt="Top Languages" height="165" />
-</div>
-
-<div align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=subbaramireddyk&theme=radical" alt="GitHub Streak Stats" />
-</div>
-
----
-
-<!-- Skills & Technologies Section -->
-## 🛠️ Skills & Technologies
-
-### ☁️ Cloud Platforms
 <p>
-  <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS" />
-  <img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoft-azure&logoColor=white" alt="Azure" />
-</p>
-
-### 🐳 Container & Orchestration
-<p>
-  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Amazon_EKS-FF9900?style=for-the-badge&logo=amazon-eks&logoColor=white" alt="Amazon EKS" />
-  <img src="https://img.shields.io/badge/Karpenter-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Karpenter" />
-</p>
-
-### 🏗️ Infrastructure as Code
-<p>
-  <img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" alt="Terraform" />
-  <img src="https://img.shields.io/badge/AWS_CDK-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="AWS CDK" />
-  <img src="https://img.shields.io/badge/CloudFormation-FF9900?style=for-the-badge&logo=amazon-aws&logoColor=white" alt="CloudFormation" />
-</p>
-
-### 💻 Programming & Scripting
-<p>
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnu-bash&logoColor=white" alt="Bash" />
-</p>
-
-### 🔄 CI/CD & Automation
-<p>
-  <img src="https://img.shields.io/badge/Harness-00AEEF?style=for-the-badge&logo=harness&logoColor=white" alt="Harness" />
-  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" alt="GitHub Actions" />
-</p>
-
-### 📈 Monitoring & Observability
-<p>
-  <img src="https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazon-cloudwatch&logoColor=white" alt="CloudWatch" />
-  <img src="https://img.shields.io/badge/Kyverno-00B140?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kyverno" />
-</p>
-
-### 🧰 Tools & Platforms
-<p>
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux" />
-  <img src="https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white" alt="Helm" />
+  <a href="https://www.linkedin.com/in/subbaramireddy"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://medium.com/@subbaramireddyk"><img src="https://img.shields.io/badge/Medium-000000?style=flat&logo=medium&logoColor=white" alt="Medium" /></a>
+  <a href="https://hashnode.com/@subbaramireddy"><img src="https://img.shields.io/badge/Hashnode-2962FF?style=flat&logo=hashnode&logoColor=white" alt="Hashnode" /></a>
+  <a href="mailto:ksramireddy11@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" alt="Email" /></a>
 </p>
 
 ---
 
-<!-- Recent Highlights Section -->
-## 🚀 Recent Highlights
+## 🏗️ Platforms I've built and run
 
-- 🔄 **EKS Cluster Upgrades**: Successfully upgraded EKS clusters from 1.30 → 1.31 → 1.32
-- ⚡ **Karpenter Migration**: Migrated from v0.37.8 to v1.2.6 with V1 API compliance
-- 🔧 **Node.js Modernization**: Upgraded Lambda and delegate images from Node.js 18 to 22 (addressing EOL)
-- ☁️ **AWS CDK Updates**: Multiple CDK version upgrades maintaining infrastructure stability
-- 🔐 **Security & Compliance**: Implemented Azure SSO automation and AWS AppStream access controls
-- 📦 **Container Optimization**: Reduced delegate image size from 3.96GB to 3.42GB
+**CI/CD platform: the heart of software delivery**
+- Built, operated and upgraded a **self-hosted Harness runner/delegate platform on Amazon EKS**, the engine every team's builds and deployments ran through.
+- Kept the platform on **latest-1 EKS** with **zero-downtime upgrades** (v1.27 → v1.34), including VPC CNI, CoreDNS, kube-proxy and Karpenter (v0.37 → v1.x API).
+- Rolled out **GitHub Actions Runner Controller (ARC)** on EKS for scalable, isolated self-hosted runners.
+- Migrated and standardised **50+ pipelines** on Harness NextGen and GitHub Actions reusable templates.
 
----
+**Internal Developer Platform (Backstage)**
+- **Bootstrapped self-hosted Backstage** as the organisation's software catalog, with end-to-end **software inventory and maturity tracking** across teams.
+- Built self-service workflows integrated with AWS, Azure, GitHub, Jira, Confluence and Grafana, cutting onboarding and access provisioning **from days to minutes**.
+- Secured access across **300+ cloud accounts and 500+ users** with guardrails, reducing ticket-driven ops.
 
-<!-- Contribution Graph Section -->
-## 📊 Contribution Graph
+**Reliability, cost and security**
+- **40–50% cloud cost reduction** through Karpenter, autoscaling and rightsizing.
+- **~40% lower MTTR** with Prometheus/Grafana observability and alert tuning; **Velero DR with <15 min recovery** for critical services.
+- Policy-as-code and supply-chain controls with **Kyverno, Trivy, Checkov, GitLeaks** and SBOMs.
+- Led **GCP onboarding**: landing zone, governance and foundational IaC.
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=subbaramireddyk&theme=react-dark&hide_border=true)
-
----
-
-<!-- Trophies Section -->
-## 🏆 GitHub Trophies
-
-![Trophies](https://github-profile-trophy.vercel.app/?username=subbaramireddyk&theme=radical&no-frame=true&no-bg=false&margin-w=4)
+**Now (ADNOC)**
+- Onboarding products onto an Internal Developer Platform with **shift-left SDLC**: governed project scaffolding, SAST/SCA quality gates, and multi-stage IaC pipelines to AKS and Azure Container Apps.
 
 ---
 
-<!-- Connect Section -->
-## 📫 Let's Connect
+## 📌 Featured projects
 
-<p align="center">
-  <a href="https://www.linkedin.com/in/subbaramireddyk">
-    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="https://github.com/subbaramireddyk">
-    <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <a href="mailto:your-email@example.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-</p>
+| Project | What it does | Stack |
+|---|---|---|
+| [**eks-upgrade-planner**](https://github.com/subbaramireddyk/eks-upgrade-planner) | CLI that scans an EKS cluster, finds deprecated APIs and addon incompatibilities, scores risk and generates a step-by-step upgrade plan (Markdown/JSON/HTML) | Python · boto3 · Kubernetes API · Docker · GitHub Actions |
+| [**azure-demo**](https://github.com/subbaramireddyk/azure-demo) | AKS + ACR + Key Vault platform in modular Terraform, with workload identity, Secrets Store CSI and Azure DevOps IaC pipelines | Terraform · AKS · Helm · Azure DevOps |
+| [**ttms-iac-terraform**](https://github.com/subbaramireddyk/ttms-iac-terraform) → [**ttms-aws-cdk**](https://github.com/subbaramireddyk/ttms-aws-cdk) → [**ttms-eks**](https://github.com/subbaramireddyk/ttms-eks) | One application taken from raw infrastructure to CDK to containers to EKS microservices | Terraform · AWS CDK · Docker · EKS |
 
 ---
 
-⭐️ From [subbaramireddyk](https://github.com/subbaramireddyk)
+## 🧰 Toolbox
+
+**Cloud:** AWS · Azure · GCP  
+**Kubernetes:** EKS · AKS · Karpenter · Helm · Kustomize · Argo CD · Velero  
+**IaC:** Terraform · OpenTofu · AWS CDK · CloudFormation · Crossplane  
+**CI/CD:** Harness · GitHub Actions (ARC) · Azure DevOps · Jenkins  
+**Platform:** Backstage · self-service automation · access governance  
+**Observability:** Prometheus · Grafana · CloudWatch · Fluent Bit  
+**Security:** Kyverno · Trivy · Checkov · GitLeaks · SBOM  
+**Code:** Python · Bash · Node.js  
+**Exploring:** AI for platform ops (anomaly detection, self-healing), GPU platforms (NVIDIA GPU Operator, KubeRay)
+
+## 🎓 Certifications
+
+Certified Kubernetes Administrator (CKA) · AWS Certified Developer – Associate · Microsoft Certified: Azure Developer Associate
+
+---
+
+✍️ I write about Kubernetes, platform engineering and IaC on [Medium](https://medium.com/@subbaramireddyk) and [Hashnode](https://hashnode.com/@subbaramireddy).
